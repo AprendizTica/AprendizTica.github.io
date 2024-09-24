@@ -1,0 +1,10 @@
+.seccion1{
+    background-image: url(imagenes/seccion1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+}
+.seccion2{
+    color: blue;
+}

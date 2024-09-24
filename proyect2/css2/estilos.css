@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(204, 240, 228);
+    text-decoration: none;
+}
+
+#about {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#about h2 {
+    margin-top: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#contact {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: columna;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form imput,
+form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form imput[type="ubmit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

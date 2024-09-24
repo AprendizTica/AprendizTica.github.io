@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=5, initial-scale=1.0">
+    <title>mi portafolio</title>
+    <link rel="stylesheet" href="css2/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Mi portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mi</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+
+            </ul>       
+        </nav>
+
+    </header>
+
+    <section id="about">
+   <h2>Sobre Mi</h2>
+    <p>Hola, soy Martha Cecilia Velasco Uribe, un desarrollador Web apasionado por crear solucionnes innovadora.</p>
+    </section>
+
+<section id="portafolio">
+    <h2>portafolio</h2>
+    <div class="gallery">
+
+    <div class="project">
+    <img src="proyecto1.jps" alt="Proyecto1">
+    <p>Descripcion del Proyecto 1</p>
+    </div>
+
+    <div class="project">
+        <img src="proyecto2.jps" alt="Proyecto2">
+        <p>Descripcion del Proyecto 2</p>
+    </div>
+
+    <div class="project">
+        <img src="proyecto2.jps" alt="Proyecto3">
+        <p>Descripcion del Proyecto 3</p>
+    </div>
+
+    </div>
+
+</section>
+
+<section id="contacto">
+<h2>contacto</h2>
+<form action="/submit" method="post">
+<label for="name">Nombre:</label>
+<input type="text" id="name" name="name" placeholder="Martha Cecilia Velasco" required><br>
+
+<label for="email">Correo Electronico:</label>
+<input type="email" id="email" name="email" placeholder="mcvelascou@hotmail.com" required><br>
+<label for="message"> Mensaje:</label>
+
+<textarea id="message" name="message"placeholder="Notificaciones direccion empresa" required></textarea><br>
+<input type="submit" value="Enviar">
+</form>
+
+</section>
+</body>
+</html>
+
