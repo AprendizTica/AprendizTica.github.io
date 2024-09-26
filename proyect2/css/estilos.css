@@ -6,11 +6,11 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #06a92f; 
+    color: #d20c0c;
     padding: 20px 0;
     text-align: center;
-
+    font-size: xx-large;
 }
 
 nav ul {
@@ -24,13 +24,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(204, 240, 228);
+    color: rgb(29, 18, 184);
     text-decoration: none;
 }
 
 #about {
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #ece6e6;
 }
 
 #about h2 {
@@ -49,22 +49,22 @@ nav ul li a {
 }
 
 form {
-    display: flex;
     flex-direction: columna;
+    padding: 65px;
 }
 
 form label {
     margin-bottom: 5px;
 }
 
-form imput,
+form input,
 form textarea {
     margin-bottom: 10px;
     padding: 10px;
     font-size: 16px;
 }
 
-form imput[type="ubmit"] {
+form input[type="submit"] {
     background-color: #333;
     color: #fff;
     border: none;
