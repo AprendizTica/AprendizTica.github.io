@@ -72,5 +72,9 @@ Let m = 10;
 Let n = 18;
 Let o = 10;
 Let p = 12;
-console.log(m ! n y)
+console.log(m ! = n); //true
+console.log (!(m == n)); //false
+console.log (m < == nI && a!=); //true
+console.log (m> = m); //false
+
 
