@@ -68,13 +68,13 @@ console.log (a != b);
 console.log (a != b);
 console.log (a != b);
 
-Let m = 10;
-Let n = 18;
-Let o = 10;
-Let p = 12;
-console.log(m ! = n); //true
-console.log (!(m == n)); //false
-console.log (m < == nI && a!=); //true
-console.log (m> = m); //false
+let m = 10;
+let n = 18;
+let o = 10;
+let p = 12;
+console.log(m != n); //true
+console.log (!(m == n)); //true
+console.log (m <= n && a != p); //true // si a es diferente de p
+console.log (m >= m); //false
 
 
