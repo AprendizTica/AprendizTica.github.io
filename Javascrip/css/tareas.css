@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+ 
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    color: darkslategrey;
+  }
+  
+  .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+  }
+  
+  .search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  input {
+    padding: 15px 10px;
+    outline: none;
+    width: 400px;
+  }
+  
+  .li-container {
+    background-color: white;
+    width: 100%;
+    color: darkslategray;
+    margin-top: 20px;
+  }
+
+.cabecera{
+    background-image: url("/Javascrip/foto1.jpg");
+    height: 200px;
+}
+
+.search ul li{
+    display: flex;
+    
+}
